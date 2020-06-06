@@ -11,7 +11,7 @@ import sys
 print sys.version
 """
 
-TAG = "python-historic-2.1.3"
+TAG = "jvkersch/python-historic:2.1.3"
 
 
 class TestImage(unittest.TestCase):
