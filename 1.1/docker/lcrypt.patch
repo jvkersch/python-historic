@@ -1,0 +1,13 @@
+diff --git a/Modules/Makefile.pre.in b/Modules/Makefile.pre.in
+index ff1ca9c..42510c0 100644
+--- a/Modules/Makefile.pre.in
++++ b/Modules/Makefile.pre.in
+@@ -63,7 +63,7 @@ MYLIBS=		$(LIB) \
+ 		../Objects/libObjects.a \
+ 		../Parser/libParser.a
+ 
+-SYSLIBS=	$(LIBM) $(LIBC)
++SYSLIBS=	$(LIBM) $(LIBC) -lcrypt
+ 
+ 
+ # === Rules ===
